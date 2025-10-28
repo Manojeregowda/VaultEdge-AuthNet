@@ -47,14 +47,14 @@ cd VaultEdge-AuthNet
 Create a Virtual Environment
 python -m venv venv
 venv\Scripts\activate      # For Windows
-# or
+or
 source venv/bin/activate   # For macOS/Linux
 pip install -r requirements.txt
 
 python flask_api_copy.py
 Swagger UI → http://127.0.0.1:5000/apidocs
 
-or....
+# or
 
 Run with Docker
 Build Docker Image
